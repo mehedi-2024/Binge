@@ -31,7 +31,7 @@ const page = () => {
           {/* right  */}
           <div className='flex flex-col gap-8'>
             <p className='text-xl leading-[28px]'>
-              Our team blends creativity with strategy. We don’t just make things look good, we make them work. Whether you're launching, scaling, or rebranding, we’ve got you. Fast turnarounds. Flexible packages. Big ideas. We’re not just your video team, we’re your creative partner. Let’s bring your vision to life, frame by frame.
+              Our team blends creativity with strategy. We don’t just make things look good, we make them work. Whether you are launching, scaling, or rebranding, we’ve got you. Fast turnarounds. Flexible packages. Big ideas. We’re not just your video team, we’re your creative partner. Let’s bring your vision to life, frame by frame.
             </p>
 
             {/* 1 */}
