@@ -39,7 +39,7 @@ export default function Footer() {
             <div className="container px-[40px] py-[96px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 {/* Left Section */}
                 <div className='lg:col-span-3'>
-                    <Image src="/logos/Logo-white.svg" alt="Logo" width={165} height={56} priority />
+                    <img src="/logos/Logo-white.svg" alt="Logo" className='w-[110px] md:w-[165px] md:h-[56px]' />
                     <p className="text-gray-300 text-sm mt-4 mb-4 max-w-[352px]">{info.description}</p>
                     <p className="text-gray-400 text-sm">{info.phone}</p>
                     <p className="text-gray-400 text-sm">{info.email}</p>
