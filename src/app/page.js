@@ -7,10 +7,12 @@ import Slider from './components/home/Slider'
 import HorizontalVideoSlider from './components/reusable/HorizontalVideoSlider'
 import VerticalVideoSlider from './components/reusable/VerticalVideoSlider'
 import ServicesSection from './components/home/ServicesSection'
+import BlogSection from './components/home/BlogSection'
+import BigEye from './components/reusable/BigEye'
 
 const page = () => {
   return (
-    <div className='h-[200vh]'>
+    <div>
       <Nav />
       <Hero />
       <section>
@@ -75,6 +77,8 @@ const page = () => {
       </section>
 
       <ServicesSection />
+      <BlogSection />
+      <BigEye />
 
       <Footer />
     </div>

@@ -36,9 +36,9 @@ export default function Footer() {
 
     return (
         <footer className="bg-black text-white">
-            <div className="container px-[40px] py-[96px] grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="container px-[40px] py-[96px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 {/* Left Section */}
-                <div>
+                <div className='lg:col-span-3'>
                     <Image src="/logos/Logo-white.svg" alt="Logo" width={165} height={56} priority />
                     <p className="text-gray-300 text-sm mt-4 mb-4 max-w-[352px]">{info.description}</p>
                     <p className="text-gray-400 text-sm">{info.phone}</p>
@@ -56,7 +56,7 @@ export default function Footer() {
                 </div>
 
                 {/* Right Section */}
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-8 text-white'>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-14 text-white'>
                     {/* col 1 */}
                     <div>
                         <h3 className="text-gray-400 mb-3">Sitemap</h3>
